@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin:0;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+}
+.table-box{
+    margin-left: auto;
+    margin-right: auto;   
+    border-collapse:separate; 
+    border-spacing: 2rem 2rem;
+}
+.box{
+    border: 10px solid black; 
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+h6{
+    padding-top: 1%;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.navbar{
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#NAVIGATION-BAR .nav-link{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+/*------------------------ MODAL-------------------- */
+.modal-title{
+    text-align: center;
+    font-size:2rem;
+    width: 100%;
+}
+.modal-title{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size:2rem;
+    width: 100%;
+}
+.modal-text{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+}
+.modal-footer-btn{
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#PRELOADER{
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#PRELOADER h2{
+    font-size: 5rem; 
+    color: white;
+}
+#PRELOADER .loader{
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    animation: mover 1s infinite alternate;
+}
+#CONTENT h1{
+    font-family: 'Press Start 2P', cursive;
+    animation: mover 1s infinite alternate;
+    font-size: 3rem;
+}
+@keyframes mover {
+    0% {
+    transform: translateY(-5px);
+    }
+    100% {
+    transform: translateY(5px);
+    }
+}
+#CONTENT{
+    background-image: linear-gradient(135deg,#061724,#043045,#0870a0,#E7F6F2);
+    height: 100vh;
+    width: 100vw;
+}
